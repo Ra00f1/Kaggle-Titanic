@@ -1,4 +1,4 @@
 # created by virtualenv automatically
 Data/
 .csv
-.pkl
+Trained/
