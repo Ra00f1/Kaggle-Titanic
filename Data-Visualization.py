@@ -9,7 +9,7 @@ def Read_Data(filename):
 
 if __name__ == "__main__":
     train_data = Read_Data("train")
-
+    print(train_data.head())
     print(train_data["Survived"].value_counts())
     #print(train_data["SibSp"].value_counts())
     #print(train_data["Parch"].value_counts())
