@@ -18,6 +18,9 @@ if __name__ == "__main__":
     sns.barplot(x='Survived', y='Age', data=train_data, hue='Sex')
     f.show()
 
+    sns.histplot(x='Age', data=train_data, kde=True, hue='Sex')
+    plt.show()
+
     g = plt.figure(2)
     sns.barplot(x='Survived', y='Pclass', data=train_data, hue='Sex')
     g.show()
