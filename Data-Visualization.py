@@ -21,6 +21,9 @@ if __name__ == "__main__":
     sns.histplot(x='Age', data=train_data, kde=True, hue='Sex')
     plt.show()
 
+    sns.histplot(x='Embarked', data=train_data, kde=True, hue='Survived')
+    plt.show()
+
     g = plt.figure(2)
     sns.barplot(x='Survived', y='Pclass', data=train_data, hue='Sex')
     g.show()
